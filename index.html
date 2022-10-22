@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>iPortfolio Bootstrap Template - Index</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="data:image/jpeg;base64,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"
+   rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: iPortfolio - v3.9.1
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+  
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <img src="data:image/jpeg;base64,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" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">Akshay Ghodki</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="https://twitter.com/AkshayGhodki19" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="https://www.facebook.com/avi.ghodki" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="https://www.instagram.com/its__ghodki__6__19/" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="git@github.com:Akshayghodki/akshay-ghodki.git" class="github"><i class="bx bxl-github"></i></a>
+          <a href="https://www.linkedin.com/in/akshay-ghodki-04a903233/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BUTH9K%2F37QsuP19BD5WJxVg%3D%3D" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
+      </div>
+
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+          <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>
+          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in">
+      <h1>Akshay Ghodki</h1>
+      <p>I'm <span class="typed" data-typed-items="Designer, Developer, Freelancer, Photographer,java programmer, c programmer, c++ programmer, Web developer"></span></p>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>About</h2>
+          <p>Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma – which is living with the results of other people's thinking. -Steve Jobs.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4" data-aos="fade-right">
+            <img src="C:\Users\aksha\OneDrive\Desktop\akshayghodki\assets\img\akshay.jpeg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3>UI/UX Designer &amp; Web Developer &amp; Java Programmer,c and c++ Programmer.</h3>
+            <p class="fst-italic">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              magna aliqua.
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>2 Dec 2003</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>8103989685</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Bhopal, INDIA</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>19</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>B.Tech (Pursuing)</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>akshayghodki520@gmail.com</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                </ul>
+              </div>
+            </div>
+            <p>
+              
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Facts Section ======= -->
+    <section id="facts" class="facts">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Facts</h2>
+          <p>Start with something simple and small, then expand over time. If people call it a ‘toy’ you’re definitely onto something.</p>
+        </div>
+
+        <div class="row no-gutters">
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+            <div class="count-box">
+              <i class="bi bi-emoji-smile"></i>
+              <span data-purecounter-start="0" data-purecounter-end="234232" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Happy Clients</strong> consequuntur quae</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="count-box">
+              <i class="bi bi-journal-richtext"></i>
+              <span data-purecounter-start="0" data-purecounter-end="13" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Projects</strong> adipisci atque cum quia aut</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="count-box">
+              <i class="bi bi-headset"></i>
+              <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Hours Of Support</strong> aut commodi quaerat</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="count-box">
+              <i class="bi bi-people"></i>
+              <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Hard Workers</strong> rerum asperiores dolor</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Facts Section -->
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Skills</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="row skills-content">
+
+          <div class="col-lg-6" data-aos="fade-up">
+            <div class="progress">
+              <span class="skill">Java <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="progress">
+              <span class="skill">C <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">C++ <i class="val">70%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Python <i class="val">60%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">HTML <i class="val">100%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">CSS <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">JavaScript <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="progress">
+              <span class="skill">PHP <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">WordPress/CMS <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Photoshop <i class="val">55%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Skills Section -->
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Resume</h2>
+          <p>I am now looking for an Internship to have some work experience and skills improvement that will take my career to the next level. I am a highly motivated and proactive student, with outstanding Cybersecurity and programming skills.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-up">
+            <h3 class="resume-title">Sumary</h3>
+            <div class="resume-item pb-0">
+              <h4>Akshay Ghodki</h4>
+              <p><em>I am now looking for an Internship to have some work experience and skills improvement that will take my career to the next level. I am a highly motivated and proactive student, with outstanding Cybersecurity and programming skills.</em></p>
+              <ul>
+                <li>Bhopal,Madhya Pradesh, INDIA</li>
+                <li>+91 8103989685</li>
+                <li>akshayghodki520@gamil.com</li>
+              </ul>
+            </div>
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>BACHELOR OF TECHNOLOGY IN COMPUTER SCIENCE</h4>
+              <h5>Puruing</h5>
+              <p><em>LNCT Group of Colleges, Bhopal, Madhya Pradesh</em></p>
+              <p>The Lakshmi Narain College of Technology is a technology-oriented institute of higher education established by LNCT Group of Colleges.</p>
+            </div>
+            <div class="resume-item">
+              <h4>Bachelor of Computers Science &amp; programming and Web developing</h4>
+              <h5>2019 - prasent</h5>
+              <p><em>LNCT Group of Colleges, Bhopal, Madhya Pradesh</em></p>
+              <p>The Lakshmi Narain College of Technology is a technology-oriented institute of higher education established by LNCT Group of Colleges.</p>
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Activities</h4>
+              <h5>2019 - Present</h5>
+              <p><em>Bhopal , Madhya Pradesh, India </em></p>
+               <li>i am a Web Developer And Programmer</li>
+                <li>we have done many projects </li>
+                <li>Our project in based on future enhancement</li>
+                
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Certificates</h4>
+              <h5>jan 2021-prasent</h5>
+              <p><em>Stepping Stone Advertising, New York, NY</em></p>
+              <ul>
+                <li>Cybersecurity-roles-processes-operating-system-security</li>
+                <p>coursera , IBM</p>
+                <li>ibm-cyber-threat-intelligence</li>
+                <p>coursera , IBM</p>
+                <li>programming-fundamentals</li>
+                <p>coursera , Duke university</p>
+                <li>Introduction to Web Development with HTML, CSS, JavaScript</li>
+                <p>Coursera, IBM</p>
+                <li>To view all of my Certificates</li>
+                <h5 id="demo1" onmouseover="mouseOver()" onmouseout="mouseOut()"> <a href= "C:\Users\aksha\Downloads\iPortfolio1\iPortfolio\certificates">click here</a> </h5>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Resume Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Portfolio</h2>
+          <p>Live like a Rockstar 😎 </p>
+        </div>
+
+        <div class="row" data-aos="fade-up">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">❤️</li>
+              <li data-filter=".filter-card">❤️❤️</li>
+              <li data-filter=".filter-web">❤️❤️❤️</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="C:\Users\aksha\OneDrive\Documents\akshay12.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="C:\Users\aksha\OneDrive\Documents\akshay12.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="C:\Users\aksha\OneDrive\Documents\akshay2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="C:\Users\aksha\OneDrive\Documents\akshay2.jpg data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="C:\Users\aksha\OneDrive\Pictures\akshay4.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="C:\Users\aksha\OneDrive\Pictures\akshay4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="C:\Users\aksha\OneDrive\Pictures\akshay5.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="C:\Users\aksha\OneDrive\Pictures\akshay5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="C:\Users\aksha\OneDrive\Pictures\akshay6.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="C:\Users\aksha\OneDrive\Pictures\akshay6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="C:\Users\aksha\OneDrive\Documents\akshay12.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="C:\Users\aksha\OneDrive\Documents\akshay12.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="C:\Users\aksha\OneDrive\Pictures\akshay9.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="C:\Users\aksha\OneDrive\Pictures\akshay9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="C:\Users\aksha\OneDrive\Pictures\akshay10.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="C:\Users\aksha\OneDrive\Pictures\akshay10.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="C:\Users\aksha\OneDrive\Pictures\akshay11.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="C:\Users\aksha\OneDrive\Pictures\akshay11.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+<!-- ======= project section Section ======= -->
+<section id="services" class="services">
+  <div class="container">
+
+    <div class="section-title">
+      <h2>Projects</h2>
+      <h2 id="demo1" onmouseover="mouseOver()" onmouseout="mouseOut()">TOUCH THE <a href= "C:\Users\aksha\Downloads\iPortfolio\iPortfolio\bus website.html">click here</a> TO WATCH BUS WEBSITE</h2>
+      <h2 id="demo1" onmouseover="mouseOver()" onmouseout="mouseOut()">TOUCH THE <a href= " https://akshayghodki.github.io/akshayfoods.github.io/">click here</a> TO WATCH FOOD DELIVERY WEBSITE</h2>
+      <h2 id="demo1" onmouseover="mouseOver()" onmouseout="mouseOut()">TOUCH THE <a href= "https://akshayghodki.github.io/agcalculator.github.io/">click here</a> TO WATCH SIMPLE INTEREST CALCULATOR</h2>
+      <h2 id="demo1" onmouseover="mouseOver()" onmouseout="mouseOut()">TOUCH THE <a href= " https://akshayghodki.github.io/Akshayjim.github.io/">click here</a> TO WATCH JIM WEBSITE</h2>
+      <h2 id="demo1" onmouseover="mouseOver()" onmouseout="mouseOut()">TOUCH THE <a href= "https://akshayghodki.github.io/Agcards.github.io/">click here</a> TO WATCH CARDS HOWER </h2>
+      <h2 id="demo1" onmouseover="mouseOver()" onmouseout="mouseOut()">TOUCH THE <a href= " https://akshayghodki.github.io/Ag-ringanimation.github.io/">click here</a> TO WATCH RINGANIMATION</h2>
+      <h2 id="demo1" onmouseover="mouseOver()" onmouseout="mouseOut()">TOUCH THE <a href= " https://akshayghodki.github.io/Ag-whether-gitghub.io/">click here</a> TO WATCH WHETHER IN YOUR CITY</h2>
+      <h2 id="demo1" onmouseover="mouseOver()" onmouseout="mouseOut()">TOUCH THE <a href= " https://akshayghodki.github.io/Akshaymovie.github.io/">click here</a> TO SEARCH MOVIE</h2>
+      <h2 id="demo1" onmouseover="mouseOver()" onmouseout="mouseOut()">TOUCH THE <a href= "https://akshayghodki.github.io/AG-password-validator/">click here</a> TO TEST PASSAWORD VALODATOR</h2>
+      <h2 id="demo1" onmouseover="mouseOver()" onmouseout="mouseOut()">TOUCH THE <a href= "https://akshayghodki.github.io/Akshaylyricsweb.github.io/">click here</a> TO SEARCH LYRICKS</h2>
+      <h2 id="demo1" onmouseover="mouseOver()" onmouseout="mouseOut()">TOUCH THE <a href= "https://akshayghodki.github.io/Agmoviesesat.githun.io/">click here</a> TO BOOK MOVIE SEAT</h2>
+      <h2 id="demo1" onmouseover="mouseOver()" onmouseout="mouseOut()">TOUCH THE <a href= "https://akshayghodki.github.io/Ag-expense-tracker.github.io/">click here</a> TO EXPENSE TRACKER</h2>
+
+      
+
+  </div>
+</section><!-- End Services Section -->
+
+  
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Testimonials</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                <h3>Saul Goodman</h3>
+                <h4>Ceo &amp; Founder</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                <h3>Sara Wilsson</h3>
+                <h4>Designer</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                <h3>Jena Karlis</h3>
+                <h4>Store Owner</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                <h3>Matt Brandon</h3>
+                <h4>Freelancer</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="400">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                <h3>John Larson</h3>
+                <h4>Entrepreneur</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>If You Want To Owen Website Contact Me.</p>
+        </div>
+
+        <div class="row" data-aos="fade-in">
+
+          <div class="col-lg-5 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>Anand Nagar, Bhopal, Madhya Pradesh, India</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>akshayghodki520@gmil.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p>+91 8103989685</p>
+              </div>
+
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117350.24977338016!2d77.33585146123811!3d23.19955198499215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c428f8fd68fbd%3A0x2155716d572d4f8!2sBhopal%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1657082128519!5m2!1sen!2sin" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+            </div>
+
+          </div>
+
+          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <form action="https://send.akshayghodki520@gmail.com/{yourSiteKey}/{formName}" className="pageclip-form" method="post">
+              <div class="row">
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="name">Your Name</label>
+                  <input type="text" name="name" class="form-control" id="name" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="name">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="name">Subject</label>
+                <input type="text" class="form-control" name="subject" id="subject" required>
+              </div>
+              <div class="form-group">
+                <label for="name">Message</label>
+                <textarea class="form-control" name="message" rows="10" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>iAkshay</span></strong>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
+        Designed by <a href="https://akshayghodki520.wixsite.com/akshayghodki">Akshay❤️Ghodki</a>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
+
+</body>
+
+</html>
